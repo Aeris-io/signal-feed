@@ -16,6 +16,7 @@ Static files, rebuilt continuously. No authentication. Schema id: `aeris.celesti
 | `sources` | object | Description of each upstream source, keyed by category |
 | `counts` | object | `total` and `by_severity: {high, medium, low, info}` |
 | `alerts` | array | The timeline, see below |
+| `collection_stats` | object | `duration_ms` and `request_count` of the build that produced this file |
 | `note` | string | Notes on the feed |
 
 ## `alerts[]`
